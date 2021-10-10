@@ -1,0 +1,114 @@
+body {
+    background-color: #eee
+}
+
+/* label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+} */
+
+/* label.radio span {
+    padding: 4px 0px;
+    border: 1px solid red;
+    display: inline-block;
+    color: red;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 7px;
+    text-transform: uppercase
+} */
+/* 
+label.radio input:checked+span {
+    border-color: red;
+    background-color: red;
+    color: #fff
+} */
+
+/* .ans {
+    margin-left: 36px !important
+} */
+
+/* .btn:focus {
+    outline: 0 !important;
+    box-shadow: none !important
+} */
+
+/* .btn:active {
+    outline: 0 !important;
+    box-shadow: none !important
+} */
+
+
+/* ______________________________________________ */
+.custom .form-control{
+    border:0;
+    border-bottom:1px solid #ccc;
+}
+
+.custom .form-control:focus{
+    border:0;
+    box-shadow: none;
+    border-bottom:1px solid #ccc;
+}
+.title h1:before {
+content: '';
+width: 40px;
+height: 2px;
+background: #13bfe3;
+position: absolute;
+top: 12px;
+left: -60px;
+}
+.title h1:after {
+content: '';
+width: 40px;
+height: 2px;
+background: #13bfe3;
+position: absolute;
+top: 12px;
+right: -60px;
+}
+.new{
+/* background: #fff; */
+color: red;
+border-radius: 30px;
+width: 30px;
+height: 30px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+}
+
+.border-top{border-top: 1px solid rgb(230 230 230 / 13%);}
+
+.bg-new11{
+    background: #302c2885;
+    min-height: 500px;
+}
+.input-group-text{width: 40px;}
+
+.main-wrap11{min-height:100vh; background: url('../../image/qnaimage.jpg'); background-size:100% 100%;}
+.bg-transparent-one11{background: #00000075; min-height: 100vh;}
+.center-full-height11{min-height: 100vh; display:flex; align-items: center; justify-content: center;}
+
+/* .optionSection {
+    overflow:auto;
+}
+
+.optionSection::-webkit-scrollbar{
+    width:4px;
+    border-radius: 6px;
+    background: white;
+}
+
+.optionSection::-webkit-scrollbar-thumb{
+    background: #474747;
+} */
